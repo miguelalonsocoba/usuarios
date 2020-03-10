@@ -1,5 +1,7 @@
 spring:
   application:    name: servicio-usuarios
+  banner:
+    location: classpath:/message/banner.txt
 server:
   port: ${PORT:0}
 eureka:
