@@ -11,8 +11,8 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
  * @author ACER 141119
  *
  */
+@EntityScan({ "com.formacionbdi.springboot.app.commons.usuarios.models.entity" })
 @SpringBootApplication
-@EntityScan({ "com.formacionbdi.springboot.app.usuarios.commons.models.entity" })
 public class SpringbootServicioUsuariosApplication {
 
 	public static void main(String[] args) {
